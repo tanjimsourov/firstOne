@@ -13,7 +13,7 @@ import FrSecondPage from "./components/fr/FrSecondPage";
 function App() {
   return (
     <Router>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>        
         <Route path="/" element={<FirstPage />} />
         <Route path="/second-page" element={<SecondPage />} />
